@@ -6,4 +6,6 @@ Steps to run:
 * Clone the repo and copy the dat file you downloaded earlier into the main folder.
 * Run morph.py
 Sample results:
+
 ![alt text][jon_arya]
+
