@@ -30,13 +30,8 @@ for tri_points_indices in tri.simplices.copy():
 	binary_mask = np.zeros((arya.shape[0], arya.shape[1]), dtype='int8');
 	cv2.fillConvexPoly(binary_mask, np.array([points_jon[tri_points_indices,0], points_jon[tri_points_indices,1]], 'int32').transpose(), 1)
 
-	# Get the part inside the poly to be cut out from arya
-	arya_cut = arya_assasin;
-	arya_cut[binary_mask == 0] = 0;
-	arya_cut = arya_cut[0:jon.shape[0]-1, 0:jon.shape[1]-1, :];
-
 	# Cut the parts from jon picture
-	jon_cut[binary_mask == 1] = arya_cut[binary_mask == 1];
+	jon_cut[binary_mask == 1] = arya_assasin[binary_mask == 1];
 
 	# Keep seeing the updates
 	cv2.imshow('lol', jon_cut);
