@@ -44,4 +44,5 @@ for tri_points_indices in tri.simplices.copy():
 
 
 cv2.imshow('lol', jon_cut);
-cv2.waitKey(5000);
+cv2.waitKey(1000);
+cv2.imwrite('Results\Jon_Arya.jpg', jon_cut);
