@@ -1,6 +1,6 @@
 from face_landmark_detection import *
 
-filename_jon = 'Faces\Bran.jpg';
+filename_jon = 'Faces\Jon.jpg';
 filename_arya = 'Faces\Arya.jpg';
 
 jon = cv2.imread(filename_jon);
