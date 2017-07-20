@@ -1,7 +1,15 @@
 [//]: # (Image References)
+[arya]: ./Faces/Arya.jpg
+[jon]: ./Faces/Jon.jpg
+[bran]: ./Faces/Bran.jpg
 [jon_arya]: ./Results/Jon_Arya.jpg
 [bran_arya]: ./Results/Bran_Arya.jpg
 # FaceMorph
+
+![alt text][bran]
+
+![alt text][arya]
+
 ![alt text][bran_arya]
 
 Steps to run:
@@ -10,6 +18,8 @@ Steps to run:
 * Run morph.py
 
 Sample result:
+
+![alt text][jon]
 
 ![alt text][jon_arya] 
 
